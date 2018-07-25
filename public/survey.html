@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+    <title>Friend Finder</title>
+</head>
+<body>
+    <div class="container">
+        <header>Survey Questions</header>
+        <br>
+        <h1>Tell Us Something About Yourself</h1>
+        <h2>Name</h2>
+        <input type="text" id="name" class="form-control" required>
+        <br>
+
+        <h3>Show us what you look like !</h3>
+        <input type="text" id="photo" class="form-control" required>
+
+        <br>
+
+        <h4>Question 1</h4>
+        <h5>Cats better than dogs. Be careful this could be a deal breaker for some...</h5>
+        <select class="chosen-select" id="question1">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h4>Question 2</h4>
+        <h5>Rick and Morty is the best show to ever be created.</h5>
+        <select class="chosen-select" id="question2">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h4>Question 3</h4>
+        <h5>Chocolate ice cream is arguably the best flavor of ice cream.</h5>
+        <select class="chosen-select" id="question3">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <button type="submit" class="btn btn-primary" id="submit"></button>
+
+        <br>
+
+        <footer class='footer'>
+            <div class="container">
+                <p>Need to insert api friends list</p>
+            </div>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
